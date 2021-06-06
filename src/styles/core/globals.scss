@@ -1,0 +1,26 @@
+@use './colors.scss' as *;
+
+*, 
+*::before, 
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: 'Barlow Semi Condensed', sans-serif;
+  background: radial-gradient(134.34% 134.34% at 50% 0%, #1F3757 0%, #131537 100%);
+  min-height: 100vh;
+  padding: 3.2rem 3.2rem 5.6rem;
+}
+
+a,
+button, 
+input {
+  outline: 2px solid green;
+}
