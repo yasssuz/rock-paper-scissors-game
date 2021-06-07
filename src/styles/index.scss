@@ -1,2 +1,5 @@
 @use './core/globals.scss'; 
-@use './layout/progress.scss'; 
+@use './core/typography.scss'; 
+@use './layout/progress.scss';
+@use './layout/footer.scss';
+@use './layout/rulesOverlay.scss';
