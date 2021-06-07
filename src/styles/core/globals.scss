@@ -16,7 +16,6 @@ body {
   font-family: 'Barlow Semi Condensed', sans-serif;
   background: radial-gradient(134.34% 134.34% at 50% 0%, #1F3757 0%, #131537 100%);
   min-height: 100vh;
-  padding: 3.2rem;
 }
 
 a,
@@ -25,4 +24,12 @@ input {
   &:focus {
     outline: 3px dashed white;
   }
+}
+
+.page-container {
+  display: flex; 
+  flex-direction: column; 
+  justify-content: space-between;
+  min-height: 100vh;
+  padding: 3.2rem 3.2rem 5.6rem;
 }
