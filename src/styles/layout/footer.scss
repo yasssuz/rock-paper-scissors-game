@@ -1,0 +1,28 @@
+.footer {
+  position: absolute;
+  bottom: 5.6rem;
+  left: 0;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+
+  button {
+    border-radius: 0.8rem;
+    border: 1px solid #FFFFFF;
+    width: 12.8rem;
+    height: 4rem;
+    background: transparent;
+    letter-spacing: 0.25rem;
+    color: white;
+    line-height: 1.9rem;
+    font-size: 1.6rem;
+    font-weight: 600;
+    transition: background-color 0.2s ease, color 0.2s ease;
+    cursor: pointer;
+
+    &:hover {
+      background: white;
+      color: black;
+    }
+  }
+}
